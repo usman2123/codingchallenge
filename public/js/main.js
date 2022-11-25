@@ -77,7 +77,7 @@ function onGetConnectionsSuccess(response) {
                     data-bs-toggle="collapse" data-bs-target="#collapse_${response.data[i].id}" aria-expanded="false" aria-controls="collapseExample">
                     Connections in common (${response.data[i].commonFriendsCount})
                   </button>
-                  <button id="create_request_btn_" class="btn btn-danger me-1 withdraw_request" data-id="${response.data[i].request_id}">Remove Connection</button>
+                  <button id="create_request_btn_"  class="btn btn-danger me-1 withdraw_request" data-id="${response.data[i].request_id}">Remove Connection</button>
                 </div>
 
               </div>
